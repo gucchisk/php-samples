@@ -1,0 +1,19 @@
+{
+  "name": "gucchi/mockery-sample",
+  "description": "Sample of mockery",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^8.5.2",
+    "mockery/mockery": "dev-master"
+  },
+  "scripts": {
+    "test": [
+      "phpunit"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "MockerySample\\": "src/"
+    }
+  }
+}
